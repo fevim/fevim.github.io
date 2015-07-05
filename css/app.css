@@ -1,0 +1,50 @@
+body, html {
+	height: 100%;
+}
+a,
+a:active {
+    font-size: 16px;
+    color: #666;
+    font-weight: 300;
+}
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar {
+}
+
+.navbar.list-inline li {
+    padding-top: 15px;
+}
+
+.intro {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.usage {
+    margin: 60px auto 0;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.wrap {
+    height: 100%;
+    margin: 0 auto;
+    display: table;
+    *position: relative;
+}
+
+.hack {
+    display: table-cell;
+    vertical-align: middle;
+    *position: absolute;
+    *top: 50%;
+}
+
+.content {
+    *position: relative;
+    *top: -50%;
+}
