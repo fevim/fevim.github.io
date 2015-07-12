@@ -1,18 +1,37 @@
-body, html {
-	height: 100%;
+@font-face {
+    font-family: 'poiretone-regular-webfont';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('font/poiretone-regular-webfont.eot');
+    src: url('font/poiretone-regular-webfont.eot?#iefix') format('embedded-opentype'), url('font/poiretone-regular-webfont.woff') format('woff'), url('font/poiretone-regular-webfont.ttf') format('truetype'), url('font/poiretone-regular-webfont.svg#Npoiretone-regular-webfont') format('svg');
 }
+
+body,
+html {
+    height: 100%;
+}
+
 a,
 a:active {
+    color: #f82167;
     font-size: 16px;
-    color: #666;
     font-weight: 300;
 }
+
 a:hover {
     text-decoration: none;
-    color: #000;
+    color: #da1d5b;
+}
+
+.wrap-nav {
+    position: absolute;
+    width: 100%;
 }
 
 .navbar {
+    width: 770px;
+    margin: 0 auto;
 }
 
 .navbar.list-inline li {
@@ -24,27 +43,44 @@ a:hover {
     font-weight: 100;
 }
 
+.sub-intro {
+    color: #999999;
+    font-size: 30px;
+    font-weight: 100;
+}
+
 .usage {
     margin: 60px auto 0;
     font-size: 15px;
     font-weight: 200;
 }
 
-.wrap {
+.wrap-content {
+    display: table;
     height: 100%;
     margin: 0 auto;
-    display: table;
+
     *position: relative;
 }
 
 .hack {
     display: table-cell;
     vertical-align: middle;
+
     *position: absolute;
     *top: 50%;
 }
 
 .content {
+    width: 770px;
+    margin-top: -40px;
+
     *position: relative;
     *top: -50%;
+}
+
+.name {
+    font-family: 'poiretone-regular-webfont';
+    font-size: 60px;
+    font-weight: 100;
 }

@@ -2,14 +2,11 @@
 <html>
 
 <head>
-    <title>fvim</title>
+    <title>fevim</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-
-
+    <meta name="keywords" content="fevim" />
+    <meta name="description" content="An beautiful vim configuration for Front-end developer." />
     <link href="favicon.ico" type="image/x-icon" rel="icon" />
     <link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -19,24 +16,34 @@
 
 <body>
 
-    <div class="wrap">
+    <div class="wrap-nav">
+        <ul class="navbar list-inline">
+            <li><a href="/">fevim</a></li>
+            <li><a href="/screenshot">Screenshot</a></li>
+            <li><a target="_blank" href="https://github.com/forsigner/fevim/blob/master/README.md">Docs</a></li>
+            <li><a target="_blank" href="https://github.com/forsigner/fevim/">Github</a></li>
+        </ul>
+    </div>
+    <div class="wrap-content">
         <div class="hack">
             <div class="content">
 
-				<h1>fvim</h1>
-                <ul class="navbar list-inline">
-                    <li><a target="_blank" href="https://github.com/forsigner/fvim/blob/master/README.md">Docs</a></li>
-                    <li><a href="">Screenshots</a></li>
-                    <li><a target="_blank" href="https://github.com/forsigner/fvim/">Githb</a></li>
-                </ul>
-				<p class="intro">Manage your vim configuration with Node.js</p>
+                <h1 class="name">fevim</h1>
+                <p class="intro">
+                    An beautiful vim configuration for Front-end developer.
+                </p>
+                <p class="sub-intro">
+                    Manage vim configuration with Node.js.
+                </p>
+
+                <br/>
 
                 <div class="usage">
                     Quick start:
                     <br/>
-                    <strong>$ npm install -g fvim</strong>
+                    <strong>$ npm install -g fevim</strong>
                     <br/>
-                    <strong>$ fvim init vimrc</strong>
+                    <strong>$ fevim init vimrc</strong>
                     <br/> That's it, enjoy yourself.
                 </div>
 
